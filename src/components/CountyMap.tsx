@@ -37,7 +37,7 @@ export const CountyMap: React.FC = () => {
         }
       }}
     >
-      <ComposableMap projection="geoAlbersUsa" projectionConfig={{ scale: 1000 }} width={960} height={600} style={{ width: "100%", height: "auto", maxHeight: "80vh" }}>
+      <ComposableMap projection="geoAlbersUsa" projectionConfig={{ scale: 1000 }} width={960} height={600} style={{ width: "100%", height: "100%" }}>
         <Geographies geography={geoUrl}>
           {({ geographies }) =>
             geographies.map(geo => {
