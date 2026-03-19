@@ -1,5 +1,5 @@
 import React from 'react';
-import { GasPrices } from '../utils/mockData';
+import { GasPrices } from './CountyMap';
 import { MapPin } from 'lucide-react';
 
 interface TooltipProps {

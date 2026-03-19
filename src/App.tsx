@@ -1,4 +1,3 @@
-import React from 'react';
 import { CountyMap } from './components/CountyMap';
 import './index.css';
 
